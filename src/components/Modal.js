@@ -14,11 +14,11 @@ function Modal(props) {
       </p>
       <div className="info">
         <label>Material: </label>
-        <input type={"text"} />
+        <input type={"text"} className={"inputBox"} />
         <label>QTY: </label>
-        <input type={"number"} />
+        <input type={"number"} className={"inputBox"} />
         <label>Nilai: </label>
-        <input type={"number"} />
+        <input type={"number"} className={"inputBox"} />
       </div>
       <br />
       <button className="btn btn--alt" onClick={cancelHandler}>

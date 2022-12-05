@@ -79,3 +79,7 @@ h2 {
   align-items: center;
   width: 100%;
 }
+
+.inputBox {
+  width: 85%;
+}
