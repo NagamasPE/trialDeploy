@@ -19,7 +19,7 @@ function Todo(props) {
       <h2>{props.text}</h2>
       <div className="action">
         <button className="btn" onClick={deleteHandler}>
-          Delete
+          Add
         </button>
       </div>
 
