@@ -11,7 +11,7 @@ function Modal(props) {
     <div className="modal">
       <p> Are You Sure?</p>
       <label>Name: </label>
-      <input type={text}/>
+      <input type={"text"} />
       <button className="btn btn--alt" onClick={cancelHandler}>
         Cancel
       </button>
