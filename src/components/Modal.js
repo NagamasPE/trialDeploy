@@ -9,7 +9,9 @@ function Modal(props) {
 
   return (
     <div className="modal">
-      <p> Are You Sure?</p>
+      <p>
+        <b>Please Fill Form Below!</b>
+      </p>
       <div className="info">
         <label>Material: </label>
         <input type={"text"} />
